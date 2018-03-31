@@ -1,0 +1,11 @@
+<script>
+	  var returnValue = {
+	    id: "$!{sns_id}",
+	   	type: "$!{type}",
+	   	nickname: "$!{nickName}",
+	   	email: "$!{email}",
+	   	status: "$!{status}"
+	  };
+	  window.opener.getReturnValue(returnValue);
+	  window.close();
+</script>
